@@ -49,7 +49,7 @@ or to run the whole build
 2.If all works fine you will find an index.html file inside [**target/site/serenity**](/target/site/serenity) folder with the results of the
 tests.
 
-Example Report:
+## Example Report:
 
 ![Serenity BDD - Test Report HTML Home](/resources/images/SerenitySummary.png)
 
