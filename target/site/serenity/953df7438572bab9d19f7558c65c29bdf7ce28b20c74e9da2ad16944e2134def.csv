@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate Git Lab API CURD Operations","Verify that the unauthorized user is not allowed to access the gitLab API","SUCCESS","2022-08-10T00:42:44.749313+02:00[Europe/Amsterdam]","0.0","2.92"

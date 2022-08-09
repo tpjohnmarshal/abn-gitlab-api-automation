@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GrDeprecatedAPIUsage" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GradlePackageUpdate" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="com.h3xstream.findsecbugs:findsecbugs-plugin" />
+          <option value="net.serenity-bdd:serenity-rest-assured" />
+          <option value="net.serenity-bdd:serenity-core" />
+          <option value="net.serenity-bdd:serenity-cucumber4" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="GroovyAssignabilityCheck" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RawUseOfParameterizedType" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

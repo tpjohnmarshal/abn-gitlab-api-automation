@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate Git Lab API CURD Operations","Verify that the authorized user is able to see the list of issues with specific state","SUCCESS","2022-08-10T00:42:48.071735+02:00[Europe/Amsterdam]","0.0","0.99"

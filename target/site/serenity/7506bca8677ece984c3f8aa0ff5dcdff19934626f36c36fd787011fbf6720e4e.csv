@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate Git Lab API CURD Operations","Verify that the authorized user is not allowed to create an issue without title","SUCCESS","2022-08-10T00:42:49.562923+02:00[Europe/Amsterdam]","0.0","0.31"

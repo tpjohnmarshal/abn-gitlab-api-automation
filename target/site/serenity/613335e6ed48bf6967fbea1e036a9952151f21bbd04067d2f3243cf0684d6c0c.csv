@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate Git Lab API CURD Operations","Verify that the unauthorized user is not allowed to access the gitLab API","SUCCESS","2022-08-10T00:42:44.749313+02:00[Europe/Amsterdam]","0.0","2.92"
+"Validate Git Lab API CURD Operations","Verify that the authorized user is able to see the list of issues he has access to","SUCCESS","2022-08-10T00:42:47.674752+02:00[Europe/Amsterdam]","0.0","0.38"
+"Validate Git Lab API CURD Operations","Verify that the authorized user is able to see the list of issues with specific state","SUCCESS","2022-08-10T00:42:48.071735+02:00[Europe/Amsterdam]","0.0","0.99"
+"Validate Git Lab API CURD Operations","Verify that the authorized user is able to create a new issue","SUCCESS","2022-08-10T00:42:49.065906+02:00[Europe/Amsterdam]","0.0","0.49"
+"Validate Git Lab API CURD Operations","Verify that the authorized user is not allowed to create an issue without title","SUCCESS","2022-08-10T00:42:49.562923+02:00[Europe/Amsterdam]","0.0","0.31"
+"Validate Git Lab API CURD Operations","Verify that the authorized user is able to update an issue","SUCCESS","2022-08-10T00:42:49.875564+02:00[Europe/Amsterdam]","0.0","0.68"
+"Validate Git Lab API CURD Operations","Verify that the authorized user is able to delete an issue","SUCCESS","2022-08-10T00:42:50.565115+02:00[Europe/Amsterdam]","0.0","0.83"

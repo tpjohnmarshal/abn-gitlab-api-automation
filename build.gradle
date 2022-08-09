@@ -1,0 +1,52 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven { url "https://packages.confluent.io/maven/" }
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:${property('serenity.version')}")
+        classpath("net.serenity-bdd:serenity-single-page-report:${property('serenity.version')}")
+    }
+}
+
+plugins {
+    id "de.undercouch.download" version "4.1.1"
+    id 'groovy'
+    id 'io.franzbecker.gradle-lombok' version '4.0.0'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url "https://packages.confluent.io/maven/" }
+}
+
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+
+dependencies {
+    implementation "net.serenity-bdd:serenity-rest-assured:${property('serenity.version')}"
+    implementation "net.serenity-bdd:serenity-core:${property('serenity.version')}"
+    implementation "net.serenity-bdd:serenity-cucumber4:${property('cucumber.version')}"
+    implementation "com.github.javafaker:javafaker:1.0.2"
+    implementation "nl.topicus.overheid:java-factory-bot:0.2.0"
+    implementation "org.json:json:20190722"
+    implementation group: "org.assertj", name: "assertj-core", version: "3.21.0"
+}
+
+// Allow build to continue on test failure
+gradle.startParameter.continueOnFailure = true
+test {
+    systemProperties System.getProperties()
+    testLogging.showStandardStreams = true
+    // turn off html reports... windows can't handle certain cucumber test name characters.
+    test.reports.getHtml().enabled = false
+    test.reports.junitXml.enabled = false
+    include 'serenityrunner/TestRunner.class'
+}
+
+serenity {
+    reports = ["single-page-html"]
+}
