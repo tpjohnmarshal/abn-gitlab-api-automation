@@ -22,6 +22,7 @@ This repository contains the automation application that performs checks to veri
 For test purpose, a Gitlab account is created. Users can log in using the below credentials and use the Gitlab UI if needed.
 
 Email: abngitlabapi@myself.com
+
 Password : Abn@gitlabapi
 
 Gitlab Link : https://gitlab.com/users/sign_in
@@ -50,9 +51,11 @@ tests.
 
 Example Report:
 
-![Serenity BDD - Test Report HTML Home](/Users/pushpjoh/IdeaProjects/abn-gitlab-api-automation/resources/images/SerenitySummary.png)
-![Serenity BDD - Test Report HTML Home](/Users/pushpjoh/IdeaProjects/abn-gitlab-api-automation/resources/images/AllTestResults.png)
-![Serenity BDD - Test Report HTML Home](/Users/pushpjoh/IdeaProjects/abn-gitlab-api-automation/resources/images/TestLevelReport.png)
+![Serenity BDD - Test Report HTML Home](/resources/images/SerenitySummary.png)
+
+![Serenity BDD - Test Report HTML Home](/resources/images/AllTestResults.png)
+
+![Serenity BDD - Test Report HTML Home](/resources/images/TestLevelReport.png)
 
 # Architecture
 
@@ -88,7 +91,7 @@ a particular implementation of the SUT and other systems.
 
 The SUTs are external to this project. Here, we target the Gitlab APIs.
 
-![4 layered architecture](/Users/pushpjoh/IdeaProjects/abn-gitlab-api-automation/resources/images/Screenshot 2022-03-03 at 16.33.47.png)
+![4 layered architecture](/resources/images/Screenshot 2022-03-03 at 16.33.47.png)
 
 ## FAQ
 
