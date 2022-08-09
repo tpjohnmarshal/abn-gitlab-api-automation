@@ -96,7 +96,7 @@ The SUTs are external to this project. Here, we target the Gitlab APIs.
 ## FAQ
 
 #### How can I get the project into my IDE?
-Clone or download the project repository from the below GitHub link.
+Clone or download the project repository from the following GitHub link. https://github.com/tpjohnmarshal/abn-gitlab-api-automation.git
 
 #### How can I execute the tests?
 Refer the **Running the tests** section or inside your IDE create a gradle run configurations and provide the -Denv and -DtargetURL values and run the tests.
